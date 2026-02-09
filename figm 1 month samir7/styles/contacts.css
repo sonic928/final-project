@@ -1,0 +1,153 @@
+.CONTACTS__wrapper {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  padding: 30px 0;
+  height: 45dvh;
+  justify-content: center;
+
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    color: #787a80;
+  }
+}
+
+.CONTACTS {
+  background-image: url(../img/background\ \(1\).png);
+  background-size: cover;
+}
+.head {
+  position: absolute;
+  width: 100%;
+}
+
+.women {
+  display: flex;
+  padding: 50px 0;
+
+  justify-content: space-between;
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+  }
+
+  button {
+    background-color: #ff5a30;
+    border: none;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 1138px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.left1 {
+  input {
+    background-color: #f4f5f6;
+    color: #9a9ca5;
+    width: 270px;
+    height: 50px;
+  }
+}
+.Contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  text-align: center;
+}
+.reg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.reg_top {
+  display: flex;
+  text-align: start;
+  gap: 30px;
+  padding: 30px 0;
+  @media (max-width: 630px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.reg_bottom {
+  gap: 30px;
+  text-align: start;
+}
+textarea {
+  resize: none;
+  max-width: 600px;
+  width: 100%;
+  height: 120px;
+  background-color: #f4f5f6;
+  color: #9a9ca5;
+  padding: 10px;
+  gap: 10px;
+}
+.register__bottom {
+  gap: 30px;
+  align-items: start;
+  display: flex;
+  p {
+    max-width: 300px;
+  }
+  @media (max-width: 530px) {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+}
+.reg_left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  select {
+    background-color: #f4f5f6;
+    color: #9a9ca5;
+    width: 300px;
+    height: 50px;
+  }
+}
+.radio {
+  display: flex;
+  gap: 10px;
+}
+
+.offices__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  gap: 30px;
+ 
+}
+.USA {
+  display: flex;
+
+  gap: 30px;
+  p {
+    max-width: 250px;
+    color: #787a80;
+  }
+
+  @media (max-width:740px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+}
+.usa1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
